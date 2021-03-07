@@ -1,5 +1,6 @@
 body {
-  font-family: ="Montserrat";
+  font-family: "Montserrat-Black";
+  font-weight: bold;
 }
 
 #title {
@@ -17,10 +18,19 @@ h1 {
   line-height: 1.5;
 }
 
-/* Navigation bar */
+h3 {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
 
-.navbar{
-padding: 0 0 3.5rem 0;
+p {
+  color: #8f8f8f;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 3.5rem 0;
 }
 
 .navbar-brand {
@@ -28,22 +38,40 @@ padding: 0 0 3.5rem 0;
   font-size: 2rem;
   font-weight: bold;
 }
-.nav-item{
-  padding:0 18px;
+
+.nav-item {
+  padding: 0 18px;
 }
-.nav-link{
-  font-family: "Montserrat-light";
-  font-size:1.2rem;
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
 }
+
 /* Download-button */
-
-.Download-button{
-  padding:  0 .5%;
+.Download-button {
+  padding: 0 .5%;
 }
-/* title image */
-.title-image
-{
-  width:60%;
-  transform: rotate(25deg);
 
+/* title image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+/* features Section */
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#ff4c68;
 }
