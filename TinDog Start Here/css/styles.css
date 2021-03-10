@@ -63,6 +63,7 @@ p {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+  margin-left: 40%;
 }
 
 /* features Section */
@@ -85,27 +86,51 @@ p {
 
 /* <!-- Testimonials --> */
 #testimonials {
-
   background-color: #ef8172;
   text-align: center;
   color: white;
 }
-.testimonials-image{
+
+.testimonials-image {
   width: 10%;
   border-radius: 100%;
   margin: 3%;
 }
-  /* <!-- Press --> */
-#press{
+
+/* <!-- Press --> */
+#press {
   text-align: center;
-    background-color: #ef8172;
-    padding-bottom: 3%;
-}
-.press-logo{
-  width: 15%;
-  margin:20px 15px 20px;
+  background-color: #ef8172;
+  padding-bottom: 3%;
 }
 
-.carousel-item{
-    padding: 7% 15%;
+.press-logo {
+  width: 15%;
+  margin: 20px 15px 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing secion*/
+#pricing{
+  margin:100px;
+  text-align: center;
+}
+.pricing-column
+{
+  padding: 2% 3%;
+}
+
+/* Media Query */
+@media (max-width:1000px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    transform: rotate(0);
+    position: static;
+  }
+  
 }
